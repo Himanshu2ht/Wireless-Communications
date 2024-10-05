@@ -1,2 +1,2 @@
-### Studying to learn wireless communication on 01/10/2024.  
+### Started to learn wireless communication on 01/10/2024.  
 ### Huh! Exhausting but interesting...
