@@ -77,7 +77,7 @@ I cos(2πft)
 
 Q sin(2πft)
 
-We call the cos() the “in phase” component, hence the name I, and the sin() is the 90 degrees out of phase or “quadrature” component, hence Q.
+We call the cos() the`in phase` component, hence the name I, and the sin() is the 90 degrees out of phase or `quadrature` component, hence Q.
 
 The important takeaways are that when we add the cos() and sin(), we get another pure sine wave with a different phase and amplitude.
 
