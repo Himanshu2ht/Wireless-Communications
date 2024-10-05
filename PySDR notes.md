@@ -41,7 +41,8 @@ plt.figure(1)
 plt.plot(f, S_phase,'.-')
 plt.show()
 ```
-<br>
+
+### Output
 <img src="https://pysdr.org/_images/fft-python5.png" widht="500" height="500"/>
 <br>
 
