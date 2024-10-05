@@ -81,7 +81,7 @@ We call the cos() the`in phase` component, hence the name I, and the sin() is th
 
 The important takeaways are that when we add the cos() and sin(), we get another pure sine wave with a different phase and amplitude.
 
-This is all a result of the trigonometric identity: `acos(x) + bsin(x) = Acos(x- Ω)`.
+This is all a result of the trigonometric identity: `acos(x) + bsin(x) = Acos(x- ɸ)`.
 
 The “utility” of this behavior is that we can control the phase and amplitude of a resulting sine wave by adjusting the amplitudes I and Q (we don’t have to adjust the phase of the cosine or sine).
 For example, we could adjust I and Q in a way that keeps the amplitude constant and makes the phase whatever we want.
