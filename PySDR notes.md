@@ -42,7 +42,7 @@ plt.plot(f, S_phase,'.-')
 plt.show()
 ```
 <br>
-<img src="https://pysdr.org/_images/fft-python5.png" widht="300" height="300"/>
+<img src="https://pysdr.org/_images/fft-python5.png" widht="500" height="500"/>
 <br>
 
 # IQ Sampling
@@ -111,11 +111,11 @@ What we do is sample the I and Q branches individually, using two ADCs, and then
 In other words, at each time step, you will sample one I value and one Q value and combine them in the form I + jQ (i.e., one complex number per IQ sample).
 
 ### Receiver Architectures
-<img src="https://pysdr.org/_images/receiver_arch_diagram.svg" widht="300" height="300"/>
-<br>  
-**LNA - Low-noise amplifier**
+<img src="https://pysdr.org/_images/receiver_arch_diagram.svg" widht="800" height="800"/>
 <br>
-**IF - Intermediate frequency**
+<b>LNA - Low-noise amplifier</b>
+<br>
+<b>IF - Intermediate frequency</b>
 <br>
 
 ### Baseband and Bandpass Signals
@@ -124,7 +124,7 @@ Conversely, `bandpass` refers to when a signal exists at some RF frequency nowhe
   
 There is no notion of a “baseband transmission”, because you can’t transmit something imaginary.
 
-## Code
+## Generating a signal and noise in Python
 
 Here is a full code example that includes generating a signal (complex exponential at 50 Hz) and noise.
 
@@ -156,4 +156,4 @@ plt.grid(True)
 plt.show()
 ```
 #### Output:
-<img src="https://pysdr.org/_images/fft_example1.svg" widht="300" height="300"/>
+<img src="https://pysdr.org/_images/fft_example1.svg" widht="500" height="500"/>
