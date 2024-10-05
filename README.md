@@ -1,3 +1,2 @@
-Starting-
-1. PySDR
-2. Coursera
+### Studying to learn wireless communication on 01/10/2024.  
+### Huh! Exhausting but interesting...
