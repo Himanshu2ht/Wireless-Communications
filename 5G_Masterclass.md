@@ -199,11 +199,95 @@ ________________________________________________________________________________
 
 # ***Chapter 3: Key RAN Procedures***
 ## 1. Initial Access:
+### Process:
+  - Scan for PSS
+  - Scan for SSS
+  - Decode PBCH for MIB
+  - Decode SIB1
+  - Decode other SIBs
+
 
 ![image](https://github.com/user-attachments/assets/52976edf-8209-42fa-a228-99af3f19159d)
 
 ## 2. Random Access:
 
+![image](https://github.com/user-attachments/assets/53e4956a-7a08-4d29-a6ad-8cf799caf437)
+## CBRA
+#### Step 1 : PRACH (Random Access Preamble)
+#### Step 2 : RAR (Random Access Response)
+#### Step 3 : Scheduled Transmission / Contention Resolution
+#### Step 4 : Contention Resolution and Connection Setup
+![image](https://github.com/user-attachments/assets/daf80161-87ad-431e-9f58-11f80e68e83e)
+
+## CFRA
+![image](https://github.com/user-attachments/assets/a78c889c-7f9c-483d-98b9-4a06c9d9c8ba)
+
+![image](https://github.com/user-attachments/assets/e21422a5-d009-464e-bb9b-8412c69265e0)
+
+### Summary
 ![image](https://github.com/user-attachments/assets/4e35933a-9cf4-4c44-979e-cd4832d8326f)
+
+<br>
+<br>
+<br>
+<br>
+________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+<br>
+<br>
+<br>
+<br>
+
+# ***Chapter 4: 5G core networks***
+## 1. Identifiers
+![image](https://github.com/user-attachments/assets/14f52284-3e29-4c0f-bb9e-1f3e2aea94e5)
+
+### Device Identifiers:
+- PEI - Permanent Equipment Identifier
+![image](https://github.com/user-attachments/assets/29c53580-f6f4-4c28-b433-4f3d0c3fa023)
+
+### Subscription identifiers:
+- 1. SUPI (Subscription Permanent Identity) or IMSI
+
+![image](https://github.com/user-attachments/assets/661427fd-81fe-4f6c-9356-c47e8dc9c05d)
+
+- 2. SUCI (Subscription Concealed Identity)
+
+![image](https://github.com/user-attachments/assets/21a381a3-a517-4498-ae77-b0a11033610a)
+
+- 3. GUTI (Globally Unique Temporary Identifier)
+
+![image](https://github.com/user-attachments/assets/56467b17-5e3e-4b3e-ba33-b17502ae5eb6)
+
+## 2. SBA (Sercvice Based Architecture)
+
+![image](https://github.com/user-attachments/assets/fb22cf17-8462-456d-aacc-715397f1e2e0)
+
+### Network functions:
+Network Functions (NFs) are the fundamental building blocks of a communication network. They provide specific services and capabilities that enable data transmission, switching, routing, and other essential network operations.
+
+<br>
+<br>
+<br>
+<br>
+________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+<br>
+<br>
+<br>
+<br>
+
+# ***Chapter 5: 5G call flows***
+5G call flows refer to the sequence of steps taken by the 5G network when establishing, maintaining, and terminating a call or session.
+
+- **Registration:** The UE (User Equipment) registers with the 5G network through the AMF (Access and Mobility Management Function) to authenticate and establish a secure connection.
+
+- **Session Setup:** Once registered, a PDU session is set up via the SMF (Session Management Function) to route data between the UE and the network.
+
+- **Service Request:** The UE sends a service request to the network to initiate communication (e.g., a voice or data session).
+
+- **Session Establishment:** The SMF, AMF, and UPF (User Plane Function) collaborate to route the call data from the UE to the intended destination.
+
+- **Session Termination:** After the call ends, the session is terminated, and resources are released.
+
+Each flow involves interactions between various components like UE, gNB (5G Base Station), AMF, SMF, and UPF for smooth operation.
 
 
