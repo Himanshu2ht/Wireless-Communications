@@ -238,6 +238,21 @@ ________________________________________________________________________________
 <br>
 
 # ***Chapter 4: 5G core networks***
+
+The 5G core network is the brain of the 5G architecture, designed to handle the advanced capabilities of 5G, such as ultra-low latency, high speeds, and massive device connectivity. Here's a quick breakdown:
+
+- **AMF (Access and Mobility Management Function):** Manages user equipment registration, mobility, and authentication.
+
+- **SMF (Session Management Function):** Handles PDU session establishment, modification, and termination for data connectivity.
+
+- **UDM (Unified Data Management):** Manages and stores subscriber data, such as user profiles and subscription information, ensuring the right services are delivered to the user.
+
+- **UDR (Unified Data Repository):** Acts as a centralized database that stores structured data, including policy, subscription, and session info, accessible by various 5G core functions like UDM, PCF, and others.
+
+- **UPF (User Plane Function):** Routes user data traffic and connects the 5G network to external networks.
+
+- **PCF (Policy Control Function):** Governs network policies and QoS (Quality of Service) for different data flows.
+
 ## 1. Identifiers
 ![image](https://github.com/user-attachments/assets/14f52284-3e29-4c0f-bb9e-1f3e2aea94e5)
 
