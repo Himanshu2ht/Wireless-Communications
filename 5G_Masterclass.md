@@ -243,18 +243,19 @@ ________________________________________________________________________________
 
 ### Device Identifiers:
 - PEI - Permanent Equipment Identifier
+
 ![image](https://github.com/user-attachments/assets/29c53580-f6f4-4c28-b433-4f3d0c3fa023)
 
 ### Subscription identifiers:
-- 1. SUPI (Subscription Permanent Identity) or IMSI
+- SUPI (Subscription Permanent Identity) or IMSI
 
 ![image](https://github.com/user-attachments/assets/661427fd-81fe-4f6c-9356-c47e8dc9c05d)
 
-- 2. SUCI (Subscription Concealed Identity)
+- SUCI (Subscription Concealed Identity)
 
 ![image](https://github.com/user-attachments/assets/21a381a3-a517-4498-ae77-b0a11033610a)
 
-- 3. GUTI (Globally Unique Temporary Identifier)
+- GUTI (Globally Unique Temporary Identifier)
 
 ![image](https://github.com/user-attachments/assets/56467b17-5e3e-4b3e-ba33-b17502ae5eb6)
 
@@ -264,6 +265,29 @@ ________________________________________________________________________________
 
 ### Network functions:
 Network Functions (NFs) are the fundamental building blocks of a communication network. They provide specific services and capabilities that enable data transmission, switching, routing, and other essential network operations.
+
+![image](https://github.com/user-attachments/assets/e1a61573-9904-4ec9-b3dd-f45ff989e31d)
+
+## 3. Access and Mobility Function (AMF)
+
+![image](https://github.com/user-attachments/assets/8ffabd0b-7969-4b65-ae71-be23cc39d630)
+
+![image](https://github.com/user-attachments/assets/b1e5e922-3d2c-492a-929c-b9495d007364)
+
+## 4. Session Management Function
+
+### Session Types -
+IP based PDU Session
+• IPv4, 
+• IPv6 and 
+• dual-stack IPv4v6
+• Responsible for IP address allocation
+• Ethernet PDU Session
+• Unstructured PDU session
+
+![image](https://github.com/user-attachments/assets/c5bc47f0-a1fa-4f4d-9214-cf4c34356679)
+
+
 
 <br>
 <br>
@@ -289,5 +313,4 @@ ________________________________________________________________________________
 - **Session Termination:** After the call ends, the session is terminated, and resources are released.
 
 Each flow involves interactions between various components like UE, gNB (5G Base Station), AMF, SMF, and UPF for smooth operation.
-
 
