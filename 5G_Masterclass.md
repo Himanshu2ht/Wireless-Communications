@@ -289,20 +289,38 @@ Network Functions (NFs) are the fundamental building blocks of a communication n
 
 ![image](https://github.com/user-attachments/assets/b1e5e922-3d2c-492a-929c-b9495d007364)
 
-## 4. Session Management Function
+## 4. Session Management Function (SMF)
 
-### Session Types -
-IP based PDU Session
-• IPv4, 
-• IPv6 and 
-• dual-stack IPv4v6
-• Responsible for IP address allocation
-• Ethernet PDU Session
-• Unstructured PDU session
+### Session Types -  
+IP based PDU Session  
+• IPv4,  
+• IPv6 and  
+• dual-stack IPv4v6  
+• Responsible for IP address allocation  
+• Ethernet PDU Session  
+• Unstructured PDU session  
 
 ![image](https://github.com/user-attachments/assets/c5bc47f0-a1fa-4f4d-9214-cf4c34356679)
 
+## 5. UDR and UDM
 
+![image](https://github.com/user-attachments/assets/3c7a0367-a287-4912-aac8-abe3b0cea75c)
+
+![image](https://github.com/user-attachments/assets/1cc604c3-0b73-4ff0-9068-6bf70784dbb9)
+
+## 6. UPF
+
+![image](https://github.com/user-attachments/assets/8553c049-3bfe-4c9f-b643-07fd588f2ad4)
+
+![image](https://github.com/user-attachments/assets/a0e2e1c8-e654-45f1-823b-5a331bc8c8db)
+
+## 7. PCF
+
+![image](https://github.com/user-attachments/assets/c690aaf1-08ed-4da0-adef-7d36ec7a421c)
+
+![image](https://github.com/user-attachments/assets/75e446cf-e4ec-42c5-9a1b-d98f309b258e)
+
+![image](https://github.com/user-attachments/assets/db7f1392-4518-42c8-ab10-0592de064db0)
 
 <br>
 <br>
