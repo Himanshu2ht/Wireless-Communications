@@ -206,7 +206,10 @@ ________________________________________________________________________________
   - Decode SIB1
   - Decode other SIBs
 
-
+![image](https://github.com/user-attachments/assets/c884bd09-8333-45db-8c4f-61d9216c436f)
+![image](https://github.com/user-attachments/assets/cf01c636-caa0-45ed-a73b-120a5db2a0b1)
+![image](https://github.com/user-attachments/assets/02a33a54-acbe-4530-8416-cfd69db2c9d3)
+![image](https://github.com/user-attachments/assets/41afadbd-0e5d-421a-9bba-1f5a4afec5d1)
 ![image](https://github.com/user-attachments/assets/52976edf-8209-42fa-a228-99af3f19159d)
 
 ## 2. Random Access:
